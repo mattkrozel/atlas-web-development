@@ -1,0 +1,475 @@
+body {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (max-width: 1200px) {
+    .section-unfiforme {
+        width: 90%;
+    }
+}
+
+.logo {
+    width: 15%;
+    margin-left: 70px;
+    margin-top: 16px;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu {
+    color:white;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro';
+    text-decoration: none;
+    position: relative;
+    left: 720px;
+    padding: 30px;
+    bottom: 15px;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+
+.titles {
+    text-align: center;
+    color: white;
+    font-size: 120px;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    padding-top: 80px;
+}
+
+.t1 {
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+    color: white;
+    position: relative;
+    display: inline;
+    left: 580px;
+    margin: 25px;
+    font-weight: 700;
+    bottom: 100px;
+}
+
+.register_button {
+    width: 150px;
+    height: 40px;
+    position: relative;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.50);
+    background: #C271FF;
+    border-radius: 22px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    cursor: pointer;
+    width: 162px;
+    height: 44px;
+    left: 340px;
+}
+
+.heading2 span {
+    color: #C271FF;
+    font-size: 32px;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: center;
+}
+
+.heading2 {
+    color: white;
+    font-size: 32px;
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    position: relative;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.persons_card {
+    display: flex;
+    justify-content: center;
+}
+
+.person {
+    text-align: center;
+    margin: 55px;
+}
+
+.person img {
+    display: block;
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.persons_text {
+    width: 150px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    margin-top: -15px;
+}
+
+.name {
+    color: white;
+    font-size: 18px;
+    font-family: 'Source Sans Pro';
+    font-weight: 900;
+    line-height: 27px;
+}
+
+.image {
+    left: 250px;
+    top: 80px;
+    position: absolute;
+}
+
+.text {
+    width: 730px;
+    height: 158px;
+    margin-left: 500px;
+    position: absolute;
+    top: 60px;
+}
+
+.quote {
+    width: 100%;
+    position: relative;
+    height: 320px;
+    background: #C271FF;
+    margin-top: 25px;
+}
+
+.text_quote {
+    width: 730px;
+    color: white;
+    font-size: 22px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    line-height: 33.60px;
+    word-wrap: break-word;
+}
+
+.persons_name {
+    color: white;
+    font-size: 22px;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    line-height: 33.60px;
+    word-wrap: break-word;
+}
+
+.weather_presenter {
+    color: white;
+    font-size: 22px;
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    font-weight: 400;
+    line-height: 33.60px;
+    word-wrap: break-word;
+}
+
+.video_heading {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    font-size: 32px;
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+}
+
+.video_heading span{
+    color: #C271FF;
+    font-size: 32px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.video_card {
+    width: 255px;
+    height: 395px;
+    background: white;
+    box-shadow: 0px 2px 4px rgba(7, 22, 41, 0.18);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.video_card2 {
+    width: 255px;
+    height: 395px;
+    background: white;
+    box-shadow: 0px 2px 4px rgba(7, 22, 41, 0.18);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.video_card3 {
+    width: 255px;
+    height: 395px;
+    background: white;
+    box-shadow: 0px 2px 4px rgba(7, 22, 41, 0.18);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.video_card4 {
+    width: 255px;
+    height: 395px;
+    background: white;
+    box-shadow: 0px 2px 4px rgba(7, 22, 41, 0.18);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.video_card_names {
+    color: #C271FF;
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    line-height: 28px;
+    word-wrap: break-word;
+    position: relative;
+    margin-top: -30px;
+    margin-left: 50px;
+}
+
+.avatar2 {
+    width: 30px;
+    height: 30px;
+    left: 5px;
+    position: relative;
+}
+
+.play {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 64px;
+    height: 64px;
+    left: 100px;
+    top: -110px;
+    position: relative;
+    opacity: 0.86;
+}
+
+.video_text {
+    width: 242px;
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    line-height: 15px;
+    word-wrap: break-word;
+    position: relative;
+    left: 10px;
+}
+
+.video_title {
+    color: #071629;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    position: relative;
+    left: 10px;
+    word-wrap: break-word;
+}
+
+.minutes {
+    position: relative;
+    left: 210px;
+    color: #C271FF;
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    line-height: 10px;
+    margin-top: -15px;
+    word-wrap: break-word;
+}
+
+.rating {
+    left: 10px;
+    position: relative;
+}
+
+.free_membership {
+    width: 1440px;
+    height: 502px;
+    background: #071629;
+    left: -10px;
+    display: flex;
+}
+
+.member {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    word-wrap: break-word;
+    position: relative;
+    bottom: -110px;
+}
+
+.member span {
+    color: #C271FF;
+    font-size: 32px;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.member_details {
+    position: relative;
+    top: 150px;
+    right: -190px;
+}
+
+.member_text {
+    width: 221px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+}
+
+.heading3 {
+    width: 256px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word;
+}
+
+.member_point {
+    position: relative;
+    left: 100px;
+}
+
+.button_2 {
+    width: 162px;
+    height: 44px;
+    background: #C271FF;
+    border-radius: 22px;
+    position: relative;
+    top: -120px;
+    left: 45%;
+    color: white;
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button_2 {
+    width: 162px;
+    height: 44px;
+    background: #C271FF;
+    border-radius: 22px;
+    position: relative;
+    top: -160px;
+    left: 44%;
+    color: white;
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.faq {
+    text-align: center;
+    color: #071629;
+    font-size: 60px;
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    line-height: 26px;
+    word-wrap: break-word;
+}
+
+.faqs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.faqs_header {
+    color: #071629;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.faqs_text {
+    width: 350px;
+    color: rgba(7, 22  , 41, 0.50);
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 70px;
+    height: 249px;
+    position: relative;
+    background-color: #071629;
+}
+
+.logos {
+    width: 169px;
+    height: 30px;
+    position: relative;
+    top: 110px;
+    left: 120px;
+}
+
+.share {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    left: 1200px;
+    top: 110px;
+    position: absolute;
+}
+
+.footer_end {
+    opacity: 0.35;
+    color: white;
+    font-size: 12px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    position: relative;
+    top: 160px;
+}
